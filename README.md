@@ -49,10 +49,10 @@ This app uses only Python's built-in libraries and SQLAlchemy.
 
 ### CREATE AND SEED THE DATABASE
 python -m  create_db
-python -m seed
+python -m app.seed
 
 ##RUN THE CLI
-pyhton -m cli
+pyhton -m app.cli
 
 ##CLI MENU
 --- Movie Watch CLI ---
